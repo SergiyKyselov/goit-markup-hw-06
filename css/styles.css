@@ -548,6 +548,18 @@ body {
  display: flex;
 }
 
+.footer-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+
+
 
 .social-networks {
   display: flex;
