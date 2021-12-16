@@ -384,7 +384,7 @@
 
 
        <div class="footer-submit">
-         <h3 class="form-tittle">Подпишитесь на рассылку</h3>
+         <p class="form-tittle">Подпишитесь на рассылку</p>
            <form class="footer-form" name="Signup" autocomplete="on" action="">
              <label>
               <input 
@@ -453,15 +453,18 @@
           <textarea name="feedback" id="feedback_area" placeholder="Введите текст" class="for-comments"></textarea>
         </div>
 
+
         <div class="modal-agreement-case">
-          <input class="checkbox-agreement" type="checkbox" name="agreement" id="user_agreement" />
-          <label for="user_agreement" class="label-agreement">
-            <svg class="agreement-svg" width="16" height="15">
-              <use href="./images/icons.svg#icon-icon-check-modal-min"></use>
-            </svg>
-            Соглашаюсь с рассылкой и принимаю&nbsp;
+          <lable class="label-agreement">
+              <input class="checkbox-agreement visually-hidden" type="checkbox" name="agreement" value="accept" />
+              <svg class="agreement-svg" width="16" height="15">
+                <use href="./images/icons.svg#icon-icon-check"></use>
+              </svg>
+              <span>
+                Соглашаюсь с рассылкой и принимаю&nbsp;
+                <a href="#" class="link-modal">Условия договора</a>
+              </span>
           </label>
-          <a href="#" class="link-modal">Условия договора</a>
         </div>
 
         <button class="btn-submit" type="submit">Отправить</button>
