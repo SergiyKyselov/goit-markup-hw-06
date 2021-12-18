@@ -455,16 +455,12 @@
 
 
         <div class="modal-agreement-case">
-          <lable class="label-agreement">
-              <input class="checkbox-agreement visually-hidden" type="checkbox" name="agreement" value="accept" />
-              <svg class="agreement-svg" width="16" height="15">
-                <use href="./images/icons.svg#icon-icon-check"></use>
-              </svg>
-              <span>
-                Соглашаюсь с рассылкой и принимаю&nbsp;
-                <a href="#" class="link-modal">Условия договора</a>
-              </span>
-          </label>
+          <input type="checkbox" name="policy" id="modal-check" class="modal-check visually-hidden"/>
+          <label for="modal-check" class="modal-check-text"
+          ><span><svg class="icon-check" width="16px" height="15px">
+             <use href="./images/icons.svg#icon-Vector"></use>
+          </svg></span>Соглашаюсь с рассылкой и принимаю </label>
+          <a class="policy-link" href="">Условия договора</a>
         </div>
 
         <button class="btn-submit" type="submit">Отправить</button>
